@@ -1,0 +1,12 @@
+🔐 AUTH_TOKEN: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXV...
+📨 Request payload: {
+  doctorId: 'doctor-id',
+  dateTime: '2025-09-01T16:30',
+  notes: 'Optional notes - API e2e'
+}
+📨 Headers: {
+  'Content-Type': 'application/json',
+  Authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjbWV3Nmh6OHAwMDAwOTd6YjM0ZTZscWhkIiwiZW1haWwiOiJ0ZXN0YXV0bzFAZ21haWwuY29tIiwiaWF0IjoxNzU2NDgwNDQxLCJleHAiOjE3NTcwODUyNDF9.cQ7dW7GliKEWzIpGNQnPaQpTTPXru0_NZiFtHuALqi4'
+}
+📬 Response status: 404
+📬 Raw response body: {"error":"Doctor not found or not available"}

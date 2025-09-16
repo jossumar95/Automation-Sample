@@ -1,0 +1,9 @@
+🔐 AUTH_TOKEN: undefined...
+📨 Request payload: {
+  doctorId: 'doctor-id',
+  dateTime: '2025-09-01T16:30',
+  notes: 'Optional notes - API e2e'
+}
+📨 Headers: { 'Content-Type': 'application/json', Authorization: 'undefined' }
+📬 Response status: 401
+📬 Raw response body: {"error":"Invalid token"}

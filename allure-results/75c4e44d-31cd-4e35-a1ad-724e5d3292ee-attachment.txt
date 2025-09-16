@@ -1,0 +1,12 @@
+🔐 AUTH_TOKEN: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXV...
+📨 Request payload: {
+  doctorId: 'cmew3e86i0003113ranlhddm8',
+  dateTime: '2025-09-01T16:30',
+  notes: 'Optional notes - API e2e'
+}
+📨 Headers: {
+  'Content-Type': 'application/json',
+  Authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjbWV3Nmh6OHAwMDAwOTd6YjM0ZTZscWhkIiwiZW1haWwiOiJ0ZXN0YXV0bzFAZ21haWwuY29tIiwiaWF0IjoxNzU2NDgwNDQxLCJleHAiOjE3NTcwODUyNDF9.cQ7dW7GliKEWzIpGNQnPaQpTTPXru0_NZiFtHuALqi4'
+}
+📬 Response status: 201
+📬 Raw response body: {"id":"cmex0w867000o97zb7qdc5dsl","userId":"cmew6hz8p000097zb34e6lqhd","doctorId":"cmew3e86i0003113ranlhddm8","dateTime":"2025-09-01T16:30:00.000Z","duration":30,"status":"PENDING","notes":"Optional notes - API e2e","createdAt":"2025-08-29T16:04:10.208Z","updatedAt":"2025-08-29T16:04:10.208Z","paymentAmount":280,"paymentStatus":"PENDING","paymentServiceSynced":false,"medicalServiceSynced":false,"user":{"id":"cmew6hz8p000097zb34e6lqhd","email":"testauto1@gmail.com","firstName":"Test","lastName":"Automation","phone":"","password":"$2a$10$zbmFVwl3HFJ2bRmF8BfmpegjrCzVtTsa3zzSSQM3VfcgWOFU3Eecu","createdAt":"2025-08-29T01:53:16.969Z","updatedAt":"2025-08-29T01:53:18.184Z","paymentServiceSynced":true,"supportServiceSynced":true,"medicalServiceSynced":true},"doctor":{"id":"cmew3e86i0003113ranlhddm8","firstName":"Robert","lastName":"Davis","email":"robert.davis@healthclinic.com","phone":"+1-555-0106","specialty":"Neurology","description":"Neurologist specializing in stroke, epilepsy, and movement disorders.","imageUrl":null,"price":280,"available":true,"createdAt":"2025-08-29T00:26:23.081Z","updatedAt":"2025-08-29T00:26:23.081Z"}}

@@ -1,0 +1,1 @@
+npx playwright codegen = command to record test steps an replicate them
